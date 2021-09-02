@@ -1,0 +1,8 @@
+{
+	"name": "Super Cooking",
+	"private": true,
+	"dependencies": {
+		"cordova-ios": "6.2.0",
+		"cordova-plugin-add-swift-support": "^2.0.2"
+	}
+}

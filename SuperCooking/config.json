@@ -1,0 +1,132 @@
+{
+	"id": "com.unlockgames.app",
+	"version": "1.0.0.0",
+	"versionCode": "1000000",
+	"name": "Super Cooking",
+	"description": "Versão Teste",
+	"whitelist": [
+		"http://*/*",
+		"https://*/*"
+	],
+	"author": "Mathugaro",
+	"email": "muegrandao@gmail.com",
+	"website": "",
+	"orientation": "landscape",
+	"fullscreen": false,
+	"permissionTypes": [],
+	"icons": [
+		{
+			"src": "www/icons/icon-512.png",
+			"width": 512,
+			"height": 512,
+			"density": "xxxhdpi"
+		},
+		{
+			"src": "www/icons/icon-256.png",
+			"width": 256,
+			"height": 256,
+			"density": null
+		},
+		{
+			"src": "www/icons/icon-128.png",
+			"width": 128,
+			"height": 128,
+			"density": "xhdpi"
+		},
+		{
+			"src": "www/icons/icon-64.png",
+			"width": 64,
+			"height": 64,
+			"density": "mdpi"
+		},
+		{
+			"src": "www/icons/icon-32.png",
+			"width": 32,
+			"height": 32,
+			"density": null
+		},
+		{
+			"src": "www/icons/icon-16.png",
+			"width": 16,
+			"height": 16,
+			"density": null
+		}
+	],
+	"adaptiveIcons": [],
+	"preferences": [
+		{
+			"name": "UseSwiftLanguageVersion",
+			"value": "5.3",
+			"platform": "ios"
+		}
+	],
+	"plugins": [
+		{
+			"id": "cordova-plugin-inappbrowser",
+			"version": null,
+			"variables": []
+		},
+		{
+			"id": "admob-plus-cordova",
+			"version": "1.17.0",
+			"variables": [
+				[
+					"APP_ID_IOS",
+					"ca-app-pub-5339199263255306/9622109771"
+				]
+			]
+		},
+		{
+			"id": "cordova-plugin-consent",
+			"version": "2.1.10",
+			"variables": []
+		},
+		{
+			"id": "cordova-plugin-device",
+			"version": "2.0.3",
+			"variables": []
+		},
+		{
+			"id": "cordova-plugin-add-swift-support",
+			"version": "2.0.2",
+			"variables": []
+		},
+		{
+			"id": "cordova-plugin-idfa",
+			"version": "2.0.0",
+			"variables": []
+		},
+		{
+			"id": "cordova-plugin-nativestorage",
+			"version": "2.3.1",
+			"variables": []
+		},
+		{
+			"id": "construct-mobile-export",
+			"version": "1.0.0",
+			"variables": []
+		},
+		{
+			"id": "cordova-plugin-whitelist",
+			"version": null,
+			"variables": []
+		},
+		{
+			"id": "cordova-plugin-splashscreen",
+			"version": null,
+			"variables": []
+		}
+	],
+	"android": null,
+	"splash": "www/icons/default@2x~universal~anyany.png",
+	"autoHideSplashScreen": false,
+	"iosScheme": "app",
+	"enableAndroidX": true,
+	"enableGooglePlayServices": false,
+	"ios": {
+		"target": "12.0",
+		"engine": "6.2.0",
+		"plugins": []
+	},
+	"useragent": null
+}
